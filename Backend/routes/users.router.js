@@ -18,7 +18,7 @@ import sendEmail from "../utils/sendEmail.js";
 const router = express.Router();
 
 //!below api is foront end api to use to send mail.
-const API = "http://localhost:3000";
+const API = "https://unique-rugelach-af3843.netlify.app";
 
 router.post('/signup',express.json(),async function(request, response){
     const { email, emailVerified, password, userName } = request.body;
