@@ -150,7 +150,7 @@ const Login = () => {
           <br />
           <div><Link to="/password-reset">Forgot password?</Link></div>
           <br />
-          <div>You Already have an Account? <Link to="/signup">Signup</Link></div>
+          <div>Don't have an account? <Link to="/signup">Signup</Link></div>
           
         </form>
       </div>
